@@ -1,0 +1,122 @@
+body {
+    padding: 1em;
+    background-image:url('Football_background.jpg');
+}
+@media only screen and (min-width: 768px){
+h1 {
+    font-size: 4em;
+    text-align: center;
+    color: aliceblue;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+caption,h3{
+    font-size: 2em;
+    text-align: center;
+    padding: 1em;
+}
+
+main {
+    display: flow-root;
+    text-align: -webkit-center;
+}
+table {
+    border: 1px solid;
+    border-collapse: collapse;
+    margin-bottom: 1em;
+}
+li {
+    padding: 4px;
+    text-align: -webkit-auto;
+    color: aliceblue;
+    font-weight: bold;    
+    font-family: cursive;
+}
+th,td {
+    border: 1px solid;
+    padding: 5px;
+}
+}
+.table1 {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    
+  }
+  #formation {
+    width: -webkit-fill-available;
+  }
+ #btn {
+    display: inherit;
+     height: 3em;
+    font-size: 1em;
+    font-family: fantasy;
+    width: 13em;
+
+  }
+
+.team {
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      margin: 0 auto 25px;
+      margin-top: 50px;
+      -moz-border-radius: 2px;
+      -webkit-border-radius: 2px;
+      border-radius: 2px;
+      -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+      -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+      box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+      border-style: ridge;
+  } 
+  #formation_team_1_image {
+    width: 20em;
+    float: left;
+
+  }
+  #formation_team_2_image {
+    width: 20em;
+    float: left;
+
+  }
+.team_list {
+  float: left;
+  padding: 1em;
+}
+
+@media only screen and (max-width: 768px){
+    h1 {
+        font-size: 4em;
+        text-align: center;
+        color: aliceblue;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+    }
+    caption,h3{
+        font-size: 2em;
+        text-align: center;
+        padding: 1em;
+    }
+    
+    main {
+        display: flow-root;
+        text-align: -webkit-center;
+    }
+    table {
+        overflow-x: auto;
+        display: block;
+        border: 1px solid;
+        border-collapse: collapse;
+        margin-bottom: 1em;
+    }
+    li {
+        padding: 4px;
+        text-align: -webkit-auto;
+        color: aliceblue;
+        font-weight: bold;    
+        font-family: cursive;
+    }
+    th,td {
+        border: 1px solid;
+        padding: 5px;
+    }
+}

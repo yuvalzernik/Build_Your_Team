@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="../public/styles.css">
+    <title>Bulid Your Team</title>
+</head>
+
+<body>
+    <header>
+        <h1>Build Your Team </h1>
+    </header>
+
+    <main>
+        <h3> Insert your player names and positions</h3>
+
+        <div>
+            <table class="table1">
+                <form>
+                    <tr>
+                        <th>First name:</th>
+                        <th>Last name:</th>
+                        <th>Positions:</th>
+                    </tr>
+                    <tbody id="body">
+
+                    </tbody>
+                    <tr>
+                        <td>
+                            <b>Formation team 1 </b>
+                        </td>
+                        <td colspan="2">
+                            <select name="formation_team_1" id="formation_team_1">
+                                <option value="4-4-2">4-4-2</option>
+                                <option value="4-3-3">4-3-3</option>
+                                <option value="5-3-2">5-3-2</option>
+                                <option value="4-4-1-1">4-4-1-1</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>Formation team 2 </b>
+                        </td>
+                        <td colspan="2">
+                            <select name="formation_team_2" id="formation_team_2">
+                                <option value="4-4-2">4-4-2</option>
+                                <option value="4-3-3">4-3-3</option>
+                                <option value="5-3-2">5-3-2</option>
+                                <option value="4-4-1-1">4-4-1-1</option>
+                            </select>
+                        </td>
+                    </tr>
+                </form>
+            </table>
+            <button id="btn"> submit</button>
+
+            <div id="team_one">
+                <img id="formation_team_1_image"></img>
+                <div id=team_one_list class="team_list">
+
+                </div>
+            </div>
+            <div id="team_two">
+                <img id="formation_team_2_image"></img>
+                <div id=team_two_list class="team_list">
+
+                </div>
+            </div>
+       </div>
+
+    </main>
+
+
+</body>
+<script type="module" src="../public/Client.js"></script>
+
+</html>
